@@ -5,7 +5,7 @@ const BundleAnalyzerPlugin =
 
 module.exports = {
   mode: "production",
-  entry: { "../../../excalidraw-app/index.tsx" },
+  entry: { "excalidraw-utils.min": "./index.js" },
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].js",
